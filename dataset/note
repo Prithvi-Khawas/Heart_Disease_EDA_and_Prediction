@@ -1,0 +1,36 @@
+#Columns Name
+d (Unique id for each patient)
+age (Age of the patient in years)
+origin (place of study)
+sex (Male/Female)
+cp chest pain type ([typical angina, atypical angina, non-anginal, asymptomatic])
+trestbps resting blood pressure (resting blood pressure (in mm Hg on admission to the hospital))
+chol (serum cholesterol in mg/dl)
+fbs (if fasting blood sugar > 120 mg/dl)
+restecg (resting electrocardiographic results)
+-- Values: [normal, stt abnormality, lv hypertrophy]
+thalach: maximum heart rate achieved
+exang: exercise-induced angina (True/ False)
+oldpeak: ST depression induced by exercise relative to rest
+slope: the slope of the peak exercise ST segment
+ca: number of major vessels (0-3) colored by fluoroscopy
+thal: [normal; fixed defect; reversible defect]
+num: the predicted attribute
+
+
+---------------------------------
+
+
+Summary of the project:
+Exploratory Data Analysis (EDA) helped us understand the distribution of heart disease cases and identify key health metrics like cholesterol and blood pressure.
+Feature Engineering involved handling missing data, one-hot encoding categorical variables, and scaling features for machine learning.
+Random Forest, SVM, and MLP Classifier were trained to predict heart disease, with Random Forest achieving the highest accuracy of 89%.
+
+
+
+
+Project Summary:
+EDA: We analyzed the dataset to understand patterns and relationships between features.
+Feature Engineering: We prepared the data for training by handling missing values and scaling.
+Model Building: We trained and evaluated three machine learning models.
+Best Model: Random Forest achieved the best accuracy for heart disease prediction.
