@@ -30,7 +30,7 @@ Random Forest, SVM, and MLP Classifier were trained to predict heart disease, wi
 
 
 Project Summary:
-EDA: We analyzed the dataset to understand patterns and relationships between features.
-Feature Engineering: We prepared the data for training by handling missing values and scaling.
-Model Building: We trained and evaluated three machine learning models.
+EDA: Analyzed the dataset to understand patterns and relationships between features.
+Feature Engineering: Prepared the data for training by handling missing values and scaling.
+Model Building: Trained and evaluated three machine learning models.
 Best Model: Random Forest achieved the best accuracy for heart disease prediction.
